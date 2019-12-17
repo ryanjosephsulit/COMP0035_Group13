@@ -2,6 +2,7 @@
 #Individual Coursework
 
 #SN: 17018087
+#Ryan Joseph Sulit Velasquez
 
 class UserAccount:
 
