@@ -1,6 +1,8 @@
 #COMP0035: Systems Engineering
 #Individual Coursework
 
+#UserAccount class
+
 #SN: 17018087
 #Ryan Joseph Sulit Velasquez
 
