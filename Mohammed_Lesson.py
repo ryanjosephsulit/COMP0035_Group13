@@ -1,7 +1,7 @@
 #COMP0035: Systems Engineering - Individual Coursework
 #Mohammed Hasan - Student Number 17014291
 
-#Hello mate. How ya doing?
+#The background music is nice right?
 
 #Lesson class
 # this file exists for the purpose of demonstration
