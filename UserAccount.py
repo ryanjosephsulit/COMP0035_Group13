@@ -15,7 +15,6 @@ class UserAccount:
 
 #Defining class attributes
 
-    @property
     def useraccount(self):
         pass
 
@@ -28,7 +27,7 @@ class UserAccount:
     def Fluent_Languages(self):
         pass
 
-    def language_ability(lang_level):
+    def language_ability(self):
         pass
 
     def location(self):
@@ -54,7 +53,7 @@ class UserAccount:
     def edit_UI_language(self):
         pass
 
-    #
+    # Sets  a new location for the user_account
     #
     #
     def edit_location(location):
@@ -77,7 +76,7 @@ class UserAccount:
     def view_reviews(self):
         pass
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
 
 
