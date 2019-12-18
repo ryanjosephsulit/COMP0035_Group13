@@ -1,5 +1,5 @@
 from unittest import TestCase
-
+import unittest
 from UserAccount import UserAccount
 
 class TestUserAccount(TestCase):
@@ -28,3 +28,6 @@ class TestUserAccount(TestCase):
 
         #Assertion that current location is not equal
         self.assertMultiLineEqual(expected_location, self.test_user.set_location)
+
+if __name__ == '__main__':
+    unittest.main()
