@@ -1,6 +1,6 @@
 #COMP0035: Systems Engineering - Individual Coursework
 #Mohammed Hasan - Student Number 17014291
-#Hello there
+#Hello
 #Lesson class
 # this file exists for the purpose of demonstration
 import datetime
