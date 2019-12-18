@@ -14,6 +14,6 @@ class TestLesson(TestCase):
         v = None;
         location_check = (self.Lesson.scheduleLessonLocation(self, v))
         self.assertNotEqual(v, location_check)
-        
+
 if __name__ == '__main__':
     unittest.main()
