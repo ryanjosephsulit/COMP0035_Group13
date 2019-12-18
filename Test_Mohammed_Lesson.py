@@ -13,7 +13,7 @@ class TestLesson(TestCase):
     def testScheduleLessonLocation(self):
         v = None;
         location_check = (self.Lesson.scheduleLessonLocation(self, v))
-        self.assertNotEqual(v, location_check)
+        self.assertEqual(v, location_check)
 
 if __name__ == '__main__':
     unittest.main()
