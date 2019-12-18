@@ -2,8 +2,7 @@
 # Wallet class unit tests Python code:
 
 import unittest
-
-from Wallet.wallet import Wallet
+from wallet import Wallet
 
 
 class TestWallet(unittest.TestCase):
