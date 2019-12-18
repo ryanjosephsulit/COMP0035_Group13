@@ -1,6 +1,8 @@
 #COMP0035: Systems Engineering
 #Individual Coursework
 
+#Ryan Joseph Sulit
+#SN: 17018087
 
 #UserAccount class
 
