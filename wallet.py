@@ -2,6 +2,8 @@
 # This is the Python 3.0 Code for the 'Wallet' class found in the class diagram
 # for the proposed software engineering design of the web-app 'LangBridge'.
 
+# CHANGE
+
 class Wallet:
 
     def __init__(self):
