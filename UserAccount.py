@@ -8,6 +8,7 @@
 
 
 class UserAccount:
+    set_location = ""
 
     def __init__(self, user_account):
         self.UserAccount = user_account
@@ -31,7 +32,7 @@ class UserAccount:
         pass
 
     def location(self):
-        pass
+        return set_location
 
     def email_address(self):
         pass
@@ -53,10 +54,19 @@ class UserAccount:
     def edit_UI_language(self):
         pass
 
+    #
+    #
+    #
     def edit_location(location):
-        print ("Location changed to " + location)
-        return location
 
+        #Updates global variable set_location
+        set_location = location;
+
+        #Prints change of location to console
+        print ("Location changed to " + location)
+
+        #Returns newly-set location
+        return set_location
 
     def edit_language_ability(self):
         pass
