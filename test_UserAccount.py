@@ -1,5 +1,5 @@
 from unittest import TestCase
-
+import unittest
 from UserAccount import UserAccount
 
 class TestUserAccount(TestCase):
@@ -13,3 +13,6 @@ class TestUserAccount(TestCase):
         self.assertMultiLineEqual(location, location_check)
 
         #self.assertMultiLineEqual(location, location_check)
+if __name__ == '__main__':
+
+    unittest.main()

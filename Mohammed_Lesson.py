@@ -8,29 +8,31 @@ import datetime
 
 class Lesson:
     def __init__(self):
-        self.status = []
-        self.type = []
-        self.datetime = []
-        self.location = []
-    def scheduleLessonLocation(self, Venue):
-            self.location = Venue
+        self.status = None
+        self.type = None
+        self.timing = None
+        self.location = None
+    def scheduleLessonLocation(self, v):
+            self.location = v
 
-    def scheduleLessonTime(self, Time):
-            self.datetime = Time
+    def scheduleLessonTime(self, t):
+            self.timing = t
 
-    def scheduleLessonFormat(self, Format):
-        self.type = Format
+    def scheduleLessonFormat(self, f):
+        self.type = f
 
-    def scheduleLessonStatus(self, Status):
-            self.status = Status
+    def scheduleLessonStatus(self, s):
+            self.status = s
 
 
-ScheduledLesson = Lesson()
-v = "UCL Science Library"
-t = datetime.date.today()
-f = "In-Person Meeting"
-s = "Upcoming"
-ScheduledLesson.scheduleLessonLocation(v)
-ScheduledLesson.scheduleLessonTime(t)
-ScheduledLesson.scheduleLessonFormat(f)
-ScheduledLesson.scheduleLessonStatus(s)
+if __name__ == '__main__':
+    Lesson = Lesson()
+    v = "Tokyo"
+    t = datetime.date.today()
+    f = "In-Person Meeting"
+    s = "Upcoming"
+    Lesson.scheduleLessonLocation(v)
+    Lesson.scheduleLessonTime(t)
+    Lesson.scheduleLessonFormat(f)
+    Lesson.scheduleLessonStatus(s)
+    print(Lesson.location, Lesson.timing, Lesson.type, Lesson.status)
