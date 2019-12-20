@@ -1,6 +1,6 @@
 # Author: Leon Xu
 # COMP0035: SYSTEMS ENGINEERING
-# This is the python code for the class 'ForumPost'
+# This is the python code for the class ''
 
 
 class ForumPost:
