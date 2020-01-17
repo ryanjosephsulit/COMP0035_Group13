@@ -1,5 +1,5 @@
 # Author: Oliver Marshall
-# Wallet class unit tests Python code:
+# Wallet class unit tests Python code: CHANGE
 
 import unittest
 from wallet import Wallet
